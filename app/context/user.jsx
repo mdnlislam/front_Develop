@@ -1,7 +1,6 @@
 "use client";
 
 import { createContext, useContext, useState } from "react";
-import Card from "@/component/product/card";
 const UserContext = createContext();
 
 export default function Store({ children }) {
@@ -11,10 +10,9 @@ export default function Store({ children }) {
     model: "x-altra",
   });
 
-  const [design] = useState(<Card />);
   const [count, setCount] = useState(0);
   return (
-    <UserContext.Provider value={{ product, design, count, setCount }}>
+    <UserContext.Provider value={{ product, count, setCount }}>
       {children}
     </UserContext.Provider>
   );
