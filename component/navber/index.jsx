@@ -23,6 +23,7 @@ export default function Navber() {
   const item = [
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
+    { label: "WhatsApp", href: "/whatsApp" },
     { label: "Info", href: "/info" },
     // { label: "LogIn", href: "/login" },
   ];
