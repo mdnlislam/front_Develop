@@ -25,6 +25,7 @@ export default function Navber() {
     { label: "About", href: "/about" },
     { label: "WhatsApp", href: "/whatsApp" },
     { label: "Info", href: "/info" },
+    { label: "ReactForm", href: "/reactForm" },
     // { label: "LogIn", href: "/login" },
   ];
 
